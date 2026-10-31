@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="boxGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <linearGradient id="boxGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="115" fill="url(#bgGrad)" />
+  <!-- Warehouse Roof / Isometric Cube Structure -->
+  <path d="M256 88 L416 176 L416 352 L256 440 L96 352 L96 176 Z" fill="none" stroke="url(#boxGrad1)" stroke-width="20" stroke-linejoin="round" />
+  <path d="M256 88 L256 264 M256 264 L416 176 M256 264 L96 176 M256 264 L256 440" stroke="rgba(56, 189, 248, 0.4)" stroke-width="14" stroke-linecap="round" />
+  <!-- Inner Logistics Nodes -->
+  <circle cx="256" cy="264" r="32" fill="url(#boxGrad2)" />
+  <circle cx="256" cy="145" r="18" fill="#38bdf8" />
+  <circle cx="155" cy="320" r="18" fill="#818cf8" />
+  <circle cx="357" cy="320" r="18" fill="#34d399" />
+</svg>

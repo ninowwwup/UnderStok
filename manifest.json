@@ -1,0 +1,20 @@
+{
+  "name": "UnderStok — Inteligência & Consulta Logística CD Extrema MG",
+  "short_name": "UnderStok",
+  "description": "Sistema interativo de consulta, gestão, movimentação e aprendizado de Centros e Depósitos Logísticos (CD Extrema MG) integrado ao Google Planilhas.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#090d16",
+  "theme_color": "#0ea5e9",
+  "categories": ["business", "productivity", "education"],
+  "icons": [
+    {
+      "src": "./assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
